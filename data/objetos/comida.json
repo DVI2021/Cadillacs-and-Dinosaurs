@@ -1,0 +1,9 @@
+{
+    "comida":{
+        "sx": 0,
+        "sy": 0,
+        "tileW": 128,
+        "tileH": 128,
+        "frames": 1
+    }
+}

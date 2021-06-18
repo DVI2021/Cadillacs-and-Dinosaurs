@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Cadillac</title>
+		<script src='lib/quintus.js'></script>
+		<script src='lib/quintus_sprites.js'></script>
+		<script src='lib/quintus_scenes.js'></script>
+		<script src='lib/quintus_2d.js'></script>
+		<script src='lib/quintus_input.js'></script>
+		<script src='lib/quintus_ui.js'></script>
+		<script src='lib/quintus_touch.js'></script>
+		<script src='lib/quintus_anim.js'></script>
+		<script src='lib/quintus_tmx.js'></script>
+		<script src='lib/quintus_audio.js'></script>
+		<!--ESCENARIOS-->
+		<script src='src/escenarios.js'></script>
+		<script src='src/escenarios/escenario1.js'></script>
+		<script src='src/escenarios/escenario2.js'></script>
+		<script src='src/escenarios/escenario3.js'></script>
+		<!--OTROS-->
+		<script src='src/game.js'></script>
+		<script src='src/entidadesGlobales.js'></script>
+		<!--OBJETOS-->
+		<script src='src/objetos.js'></script>
+		<script src='src/objetos/comida.js'></script>
+		<!--PERSONAJES-->
+		<script src='src/personajes.js'></script>
+		<script src='src/personajes/mustapha.js'></script>
+		<!--ENEMIGOS-->
+		<script src='src/enemigos.js'></script>
+		<script src='src/enemigos/ferris.js'></script>
+		<script src='src/enemigos/elmer.js'></script>
+		<script src='src/enemigos/morgan.js'></script>
+		<script src='src/enemigos/lash.js'></script>
+		<!--CREDITOS-->
+		<script src='src/creditos.js'></script>
+		
+
+		<style>
+            *{
+                padding: 0px;
+                margin: 0px;
+            }
+            body{
+                background-color: rgb(123,123,123);
+            }
+			canvas { background-color:black; }
+		</style>
+	</head>
+	<body>
+	<canvas id ='myGame' width='500' height='330'></canvas>
+	<script type="text/javascript">
+		window.onload = game;
+	</script>
+	</body>
+</html>

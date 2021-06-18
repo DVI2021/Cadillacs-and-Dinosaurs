@@ -1,0 +1,9 @@
+{
+    "morgan":{
+        "sx": 0,
+        "sy": 0,
+        "tileW": 256,
+        "tileH": 256,
+        "frames": 1
+    }
+}
